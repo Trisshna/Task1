@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "EmployeeManagementSystem/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EmployeeManagementSystem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagementSystem.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "EmployeeManagementSystem/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagementSystem/EmployeeManagementSystem.csproj",
+      "msbuildProject": "../EmployeeManagementSystem/EmployeeManagementSystem.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "EmployeeManagementSystem >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\TrisshnaS\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\TrisshnaS\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem1\\EmployeeManagementSystem1.csproj",
+      "projectName": "EmployeeManagementSystem1",
+      "projectPath": "C:\\Users\\TrisshnaS\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem1\\EmployeeManagementSystem1.csproj",
+      "packagesPath": "C:\\Users\\TrisshnaS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TrisshnaS\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem1\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\TrisshnaS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/softuravault/eead0206-6959-4e49-b193-074e4872ef5d/_packaging/Softura/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\TrisshnaS\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj": {
+              "projectPath": "C:\\Users\\TrisshnaS\\source\\repos\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
